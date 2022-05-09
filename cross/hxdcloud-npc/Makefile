@@ -1,8 +1,8 @@
 PKG_NAME = hxdcloud-npc
 PKG_VERS = 1.0.0
-PKG_EXT =
-PKG_DIST_NAME = linux_amd64_client
-PKG_DIST_SITE = https://api.minio.hxdcloud.com/npc
+PKG_EXT = tar.gz
+PKG_DIST_NAME = $(PKG_NAME)-$(PKG_VERS).$(PKG_EXT)
+PKG_DIST_SITE = https://api.minio.hxdcloud.com/npc/npc
 PKG_DIR = $(PKG_NAME)
 
 # DEPENDS = cross/zlib cross/openssl cross/curl cross/libevent
