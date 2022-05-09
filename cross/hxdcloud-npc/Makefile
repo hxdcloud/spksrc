@@ -3,7 +3,7 @@ PKG_VERS = 1.0.0
 PKG_EXT = tar.gz
 PKG_DIST_NAME = $(PKG_NAME)-$(PKG_VERS).$(PKG_EXT)
 PKG_DIST_SITE = https://api.minio.hxdcloud.com/npc/npc
-PKG_DIR = $(PKG_NAME)
+PKG_DIR =
 
 # DEPENDS = cross/zlib cross/openssl cross/curl cross/libevent
 DEPENDS =
